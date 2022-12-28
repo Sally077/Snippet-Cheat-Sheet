@@ -1,0 +1,145 @@
+
+body{
+    background-color: black;
+}
+
+.hero{
+  display:flex;
+
+}
+
+h1{
+    color: purple;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+h3{
+    color: purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    color: purple;
+    font-size: 20px;
+}
+
+.containerParent{
+    display:flex;
+    background-color: black;
+    padding: 15px;
+
+}
+
+.flexChild{
+   flex-grow: 1;
+   border-width: 3px;
+   border-style:dashed;
+   border-color: white;
+   padding: 10px;
+   margin: 10px;
+   height: 250px;
+   width:200px;
+}
+
+.flexChild2{
+   flex-grow: 1;
+   border-width: 3px;
+   border-style:dashed; 
+   border-color: white;
+   padding: 10px;
+   margin: 10px;
+   height: 350px;
+   width: 200px;
+}
+
+.card {
+    height:140px;
+    width:350px;
+    border-radius: 25px;
+    z-index: 1;
+    padding: 20px;
+    margin-top:30px;
+    position:relative;
+    margin: 0 auto;
+
+}
+
+
+.card.gradient {
+    height:150px;
+    width:350px;
+    border-radius: 25px;
+    z-index: 1;
+    padding: 20px;
+    margin-top:30px;
+    position:relative;
+    margin: 0 auto;
+
+}
+
+.card.gradient {
+        background: linear-gradient(150deg, #500145, #4600f1 100%);
+        position:relative;
+        margin-top: 50px;
+      }
+ 
+        /*background-image: linear-gradient(
+        rgba(232, 102, 236, 0.3)0%, 
+        rgba(232, 102, 236, 0.6)100%,
+        );*/
+
+.card-header{
+    position: relative;
+    margin-top:-100px;
+    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
+    z-index: 1;
+    background-color: black;
+    
+}
+
+.card-header2{
+    position: relative;
+    margin-top:-120px;
+    border-radius: 25px;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
+    z-index: 1;
+    background-color: black;
+    
+}
+
+.card-header.gradient{
+    border-radius: 8px;
+    transition:all 0.5s ease-in-out;
+}
+
+.gradient:hover,
+.gradient:hover{
+    box-shadow:inset 0px 0px 8px,
+    (150deg, #500145, #4600f1, 1);
+    
+}
+
+
+
+#white{
+    color:white;
+}
+
+#purple{
+    color: purple;
+}
+
